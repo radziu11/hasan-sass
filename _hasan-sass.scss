@@ -10,3 +10,13 @@
 
 // squircle
 
+@mixin squircle($width, $background-color){
+				$radius: $width/5.5;
+				width: $width; height: $width; position: relative; background: $background-color; border-radius: $radius; color: #fff; margin: 0 auto; text-align: center; z-index: 1; line-height: $width;
+				&::before,
+				&::after{border-radius: 100%; display: block; position: absolute; background: $background-color; content: '';}
+				&::before{width: ($width - $radius); height: $radius; top: -($radius/4); left: ($radius/2); box-shadow:  0px  ($width - $radius/2) 0px $background-color;}
+				&::after{height: ($width - $radius); width: $radius; left: -($radius/4); top: ($radius/2); box-shadow: ($width - $radius/2) 0px 0px $background-color;}
+}
+
+

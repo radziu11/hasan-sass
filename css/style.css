@@ -1,2 +1,2 @@
-
+.squircle{width:500px;height:500px;position:relative;background:red;border-radius:90.9090909091px;color:#fff;margin:0 auto;text-align:center;z-index:1;line-height:500px}.squircle::before,.squircle::after{border-radius:100%;display:block;position:absolute;background:red;content:''}.squircle::before{width:409.0909090909px;height:90.9090909091px;top:-22.7272727273px;left:45.4545454545px;box-shadow:0px 454.5454545455px 0px red}.squircle::after{height:409.0909090909px;width:90.9090909091px;left:-22.7272727273px;top:45.4545454545px;box-shadow:454.5454545455px 0px 0px red}
 /*# sourceMappingURL=style.css.map */
