@@ -1,0 +1,11 @@
+
+// shadow
+@mixin shadow($shadow) {-webkit-box-shadow: $shadow;-moz-box-shadow: $shadow;box-shadow: $shadow;}
+
+// columns
+@mixin columns($columns) {-webkit-column-count: $columns;-moz-column-count: $columns;column-count: $columns;}
+
+// drawing a circle (for user image or for icon)
+@mixin circle($size, $background-color){width: $circle-size; height: $circle-size; line-height: $circle-size; border-radius: 100%; text-align: center; background-color: $background-color;}
+
+// squircle
